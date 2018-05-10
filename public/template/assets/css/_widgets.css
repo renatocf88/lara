@@ -1,0 +1,201 @@
+.social-box {
+  min-height: 160px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+.social-box i {
+  display: block;
+  margin: -1px -1px 0;
+  font-size: 40px;
+  line-height: 90px;
+  background: #e9ecef;
+}
+.social-box .chart-wrapper {
+  height: 90px;
+  margin: -90px 0 0;
+}
+.social-box .chart-wrapper canvas {
+  width: 100% !important;
+  height: 90px !important;
+}
+.social-box ul {
+  padding: 10px 0;
+  list-style: none;
+}
+.social-box ul li {
+  display: block;
+  float: left;
+  width: 50%;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.social-box ul li:first-child {
+  border-right: 1px solid #c2cfd6;
+}
+.social-box ul li strong {
+  display: block;
+  font-size: 20px;
+}
+.social-box ul li span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #949ca0;
+  text-transform: uppercase;
+}
+.social-box.facebook i {
+  color: #fff;
+  background: ;
+}
+.social-box.twitter i {
+  color: #fff;
+  background: ;
+}
+.social-box.linkedin i {
+  color: #fff;
+  background: ;
+}
+.social-box.google-plus i {
+  color: #fff;
+  background: ;
+}
+.horizontal-bars {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.horizontal-bars li {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.horizontal-bars li .title {
+  width: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  color: ;
+  vertical-align: middle;
+}
+.horizontal-bars li .bars {
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  padding-left: 100px;
+}
+.horizontal-bars li .bars .progress:first-child {
+  margin-bottom: 2px;
+}
+.horizontal-bars li.legend {
+  text-align: center;
+}
+.horizontal-bars li.legend .badge {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+}
+.horizontal-bars li.divider {
+  height: 40px;
+}
+.horizontal-bars li.divider i {
+  margin: 0 !important;
+}
+.horizontal-bars.type-2 li {
+  overflow: hidden;
+}
+.horizontal-bars.type-2 li i {
+  display: inline-block;
+  margin-right: ;
+  margin-left: 5px;
+  font-size: 18px;
+  line-height: 40px;
+}
+.horizontal-bars.type-2 li .title {
+  display: inline-block;
+  width: auto;
+  margin-top: -9px;
+  font-size: ;
+  font-weight: normal;
+  line-height: 40px;
+  color: ;
+}
+.horizontal-bars.type-2 li .value {
+  float: right;
+  font-weight: 600;
+}
+.horizontal-bars.type-2 li .bars {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  padding: 0;
+}
+.icons-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.icons-list li {
+  position: relative;
+  height: 40px;
+  vertical-align: middle;
+}
+.icons-list li i {
+  display: block;
+  float: left;
+  width: 35px !important;
+  height: 35px !important;
+  margin: 2px;
+  line-height: 35px !important;
+  text-align: center;
+}
+.icons-list li .desc {
+  height: 40px;
+  margin-left: 50px;
+  border-bottom: 1px solid ;
+}
+.icons-list li .desc .title {
+  padding: 2px 0 0;
+  margin: 0;
+}
+.icons-list li .desc small {
+  display: block;
+  margin-top: -4px;
+  color: ;
+}
+.icons-list li .value {
+  position: absolute;
+  top: 2px;
+  right: 45px;
+  text-align: right;
+}
+.icons-list li .value strong {
+  display: block;
+  margin-top: -3px;
+}
+.icons-list li .actions {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.icons-list li .actions i {
+  float: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  line-height: normal;
+}
+.icons-list li.divider {
+  height: 40px;
+}
+.icons-list li.divider i {
+  width: auto;
+  height: auto;
+  margin: 2px 0 0;
+  font-size: 18px;
+}
